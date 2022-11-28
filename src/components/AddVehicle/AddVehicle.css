@@ -1,0 +1,38 @@
+.AddVehicle{
+  width: 100%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
+.title{
+    text-align: center;
+}
+.AddVehicleForm{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.AddVehicle input,button{
+    font-size: 20px;
+    margin:10px;
+    width: 400px;
+    height: 40px;
+}
+.AddVehicle label{
+    color: #F0FFF0;
+    font-size: 15px;
+    text-align: center;
+}
+.AddVehicle button{
+    text-decoration: none;
+    border-radius: 1020px;
+}
+.AddVehicle button:hover{
+    cursor: pointer;
+    
+}

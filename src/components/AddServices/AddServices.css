@@ -1,0 +1,32 @@
+.AddServices{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .AddServicesForm{
+      width: 400px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+  }
+.AddServices input,button{
+      font-size: 20px;
+      margin:10px;
+      width: 400px;
+      height: 40px;
+  }
+.AddServices label{
+      color: #F0FFF0;
+      font-size: 20px;
+      text-align: center;
+  }
+.AddServices button{
+      border-radius: 1020px;
+  }
+.AddServices button:hover{
+    cursor: pointer;
+}
